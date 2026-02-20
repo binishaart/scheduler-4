@@ -1,2 +1,29 @@
-# scheduler-4
-A fault-tolerant distributed task scheduler built with Python, Celery, and Redis. It supports job queuing, automatic retries on failure, and local load balancing across multiple workers. Users can submit tasks via a REST API, and the system ensures reliable, scalable, and efficient execution.
+# Fault-Tolerant Distributed Task Scheduler
+
+A Python-based distributed task scheduler that supports:
+
+- Job queuing using Redis
+- Automatic retries on failure
+- Local load balancing across multiple workers
+- REST API to submit tasks
+
+---
+
+## **Features**
+
+- Fault-tolerant: Failed tasks automatically retry
+- Distributed: Multiple workers can process tasks simultaneously
+- Scalable: Add more worker nodes for higher throughput
+- Simple REST API for job submission
+
+---
+
+## **Tech Stack**
+
+- Python 3.11+
+- Flask
+- Celery
+- Redis
+- Gunicorn (for deployment)
+
+---
